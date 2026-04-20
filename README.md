@@ -1,12 +1,52 @@
-# React + Vite
+# Silkway Global
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Silkway Global is a modern, multilingual landing site built with React and Vite. The application focuses on international education and travel consulting, offering an engaging user experience with responsive design, dynamic program pages, localized content, and integrated mapping support.
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React 19 and Vite for fast development and optimized builds
+- Uses Tailwind CSS for styling and responsive layouts
+- Supports English, Russian, and Kazakh via `react-i18next` and browser language detection
+- Includes country-specific program routing and modular page sections
+- Integrates Yandex Maps for contact/location display
+- Uses Swiper for interactive sliders and React Router for navigation
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Multilingual interface with locale resources loaded from `public/locales`
+- Routing for homepage and country-specific programs
+- Reusable component structure for hero, about, programs, team, testimonials, and contact sections
+- Optimized assets with image optimization and Tailwind integration
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## Recommended Improvements
+
+- Add TypeScript support for stronger typing
+- Extend ESLint configuration for production-grade quality checks
+- Add unit tests for key components and routing logic
+- Improve accessibility and SEO metadata for the landing pages
