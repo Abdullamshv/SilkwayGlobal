@@ -1,0 +1,243 @@
+{
+  "home": {
+    "title1": "Silkway Global -",
+    "title2": "your path to",
+    "title3": "International",
+    "title4": "Education",
+    "description": {
+      "line1": "We are your trusted guide into the world of",
+      "line2": "knowledge and experiences. Discover the",
+      "line3": "world of educational adventures with Silkway Global."
+    },
+    "button": "Consultation"
+  },
+
+  "menu": {
+    "whyus": "Why Us",
+    "about": "About",
+    "feedbacks": "Feedbacks",
+    "team": "Team",
+    "articles": "Useful Articles",
+    "programs": "Programs"
+  },
+
+  "programsSub": {
+    "malaysia": "Malaysia",
+    "czechia": "Czech Republic",
+    "uk": "United Kingdom"
+  },
+
+  "contacts": {
+    "title": "International Educational Center",
+    "addressLabel": "Our Address:",
+    "address": "St.8 Marta, 22",
+    "phone": "+7707777777"
+  },
+
+  "articles": {
+    "title": "Useful Articles",
+    "ielts": {
+      "title": "What is IELTS and why is it important?",
+      "description": "IELTS — International English Language Testing System — is an exam that tests your English proficiency. It is essential for studying, working, or immigrating to English-speaking countries."
+    },
+    "toefl-ets": {
+      "title": "TOEFL iBT by ETS",
+      "description": "Prepare for the TOEFL iBT exam with official materials from ETS. It’s a reliable way to practice and understand the test format."
+    },
+    "khan-academy": {
+      "title": "Grammar with Khan Academy",
+      "description": "Learn the basics of English grammar interactively. Free, fun, and effective!"
+    },
+    "toefl-test": {
+      "title": "TOEFL iBT Reading Practice",
+      "description": "Try sample TOEFL reading tasks to boost your skills and get ready for the real test."
+    }
+  },
+
+  "consult": {
+    "title": "Get a Consultation",
+    "subtitle": "Join thousands of successful students who got into their dream universities.",
+    "fullNameLabel": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "phoneNumberLabel": "Phone Number",
+    "phoneNumberPlaceholder": "Enter your phone number",
+    "submit": "Sign Up",
+    "altContact": "or message us on WhatsApp:",
+    "errorFullName": "Full name is required",
+    "errorPhone": "Phone number is required",
+    "invalidPhone": "Enter a valid phone number"
+  },
+
+  "team": {
+    "title": "Silkway Global Team",
+    "subtitle": "Our company is built on our teachers",
+    "members": {
+      "1": { "name": "Mr. Didar", "role": "Mathematics Teacher" },
+      "2": { "name": "Ms. Aigerim", "role": "English  Teacher" },
+      "3": { "name": "Mr. Didar", "role": "Arabic Teacher" },
+      "4": { "name": "Ms. Laura", "role": "Arabic  Teacher" },
+      "5": { "name": "Ms. Aigerim", "role": "Spanish  Teacher" },
+      "6": { "name": "Mr. Didar", "role": "English  Teacher" },
+      "7": { "name": "Ms. Laura", "role": "IELTS Specialist" },
+      "8": { "name": "Mr. Didar", "role": "TOEFL Instructor" }
+    }
+  },
+
+  "testimonialsTitle": "Your Journey to Studying Abroad Starts Here",
+  "testimonialsSubtitle": "With our support, thousands of students have been accepted into universities abroad. You can too.",
+
+  "aboutUs": "About Us",
+  "aboutUsTagline": "Silkway Global is your trusted guide to the world of knowledge and experiences.",
+  "experience": "For over 10 years, we have been organizing unforgettable vacations for children.",
+  "programs": "Our programs combine learning, development, and safety.",
+  "destinations": {
+    "cambridge": "Cambridge and Chester",
+    "europe": "Europe",
+    "malaysia": "Malaysia",
+    "dubai": "Dubai"
+  },
+
+  "whyUs": {
+    "title": "Why Us?",
+    "students": {
+      "part1": "🎓 3500+",
+      "part2": "students",
+      "part3": "have walked",
+      "part4": "this path with us"
+    },
+    "countries": {
+      "part1": "50+",
+      "part2": "countries"
+    },
+    "partners": {
+      "part1": "100+",
+      "part2": "partner universities"
+    },
+    "consulting": {
+      "part1": "300+",
+      "part2": "hours of",
+      "part3": "consultation",
+      "part4": "every month"
+    }
+  },
+
+  "testimonials": {
+    "1": {
+      "text": "We were looking for a course where our son would not only learn but also enjoy himself. In your lessons, he started speaking English with confidence and began watching movies without subtitles! Huge thanks to the teachers for their approach and support.",
+      "author": "Serik Kabanbay",
+      "role": "Father of a schoolboy"
+    },
+    "2": {
+      "text": "My son started learning English from scratch, and I see how quickly he is progressing.",
+      "author": "Serik Kabanbay",
+      "role": "Father of a schoolboy"
+    },
+    "3": {
+      "text": "Thank you for your attention to each student!",
+      "author": "Saniya Abay",
+      "role": "Mother of a student"
+    },
+    "6": {
+      "text": "We were looking for a serious course for our son to prepare him for an international program. The teachers not only explain things clearly but also inspire him. Progress was noticeable in just three weeks.",
+      "author": "Saniya Abay",
+      "role": "Mother of a student"
+    },
+    "7": {
+      "text": "The courses are modern, everything is explained simply, and most importantly — the teachers know how to engage the students. He is already speaking with confidence!",
+      "author": "Saniya Abay",
+      "role": "Mother of a student"
+    }
+  },
+
+  "programsTitle": {
+    "mainTitle": "Programs",
+    "uk": {
+      "title": "Britain",
+      "quote": "«Not only travel - grow, talk and shine in English this summer!»"
+    },
+    "malaysia": {
+      "title": "Malaysia",
+      "quote": "«Explore Asia while learning and growing in Malaysia!»"
+    },
+    "czechia": {
+      "title": "Czech Republic",
+      "quote": "«Not only travel - grow, talk and shine in English this summer!»"
+    }
+  },
+
+  "colleges": {
+  "title": "Universities & Colleges",
+  "feedbackTitle": "Student Testimonials",
+  "feedbacks": {
+    "uk": [
+      { "text": "Cambridge was an amazing experience. The program exceeded all my expectations!", "author": "Anna S." },
+      { "text": "The best language practice I've ever had. Top-notch teachers.", "author": "Igor V." },
+      { "text": "London is a fantastic city for students. Perfect balance of study and tours.", "author": "Maria K." },
+      { "text": "Total immersion helped me overcome my language barrier in just a month.", "author": "Timur D." },
+      { "text": "Excellent trip organization and very comfortable accommodation. Highly recommended!", "author": "Sophia L." }
+    ],
+    "malaysia": [
+      { "text": "APU's technology left me speechless. The campus is straight out of the future!", "author": "Ruslan M." },
+      { "text": "Malaysia is a beautiful place to study. Very warm and friendly atmosphere.", "author": "Alina T." },
+      { "text": "Ideal conditions for IT students. Hands-on practice with advanced equipment.", "author": "Denis P." },
+      { "text": "A great opportunity to make friends from all over the world in a sunny country.", "author": "Karina E." },
+      { "text": "The program in Kuala Lumpur was the best decision for starting my career.", "author": "Maxim I." }
+    ],
+    "czechia": [
+      { "text": "Prague is a fairytale! Studying at the language institute was incredibly useful.", "author": "Daria V." },
+      { "text": "Affordable and high-quality education right in the heart of Europe.", "author": "Artem S." },
+      { "text": "I really liked the mentors' approach. University preparation went smoothly.", "author": "Elena N." },
+      { "text": "An intensive program that genuinely prepares you for Czech universities.", "author": "Victor A." },
+      { "text": "New skills, friends, and tons of memories. I am absolutely thrilled!", "author": "Alisher O." }
+    ]
+  }
+},
+
+  "information": {
+  "title": "Information",
+  "uk": {
+    "items": [
+      { "text": "15-20 study hours in a week" },
+      { "text": "SIM cards + Internet" },
+      { "text": "Breakfast, lunch, and dinner included" },
+      { "text": "Group leader included" },
+      { "text": "Tours to London, Oxford, Brighton & Stonehenge" },
+      { "text": "Insurance" },
+      { "text": "Residents in an English family" },
+      { "text": "Cambridge Regional College certificate" }
+    ]
+  },
+  "czechia": {
+    "items": [
+      { "text": "15–20 hours per week" },
+      { "text": "Tours to 5 cities: Prage Drezden Vienna Verona Paris + Disneyland" },
+      { "text": "SIM cards + Internet" },
+      { "text": "Insurance" },
+      { "text": "Breakfast, lunch, and dinner included" },
+      { "text": "Residents in an English family" },
+      { "text": "Group leader included" },
+      { "text": "Certificates with global recognition provided" }
+    ]
+  },
+  "malaysia": {
+    "items": [
+      { "text": "7 hours intensive classes a day " },
+      { "text": "SIM cards + Internet" },
+      { "text": "Books and materials included" },
+      { "text": "Residents in a high quality apartments" },
+      { "text": "Certificates with global recognition provided" },
+      { "text": "Group leader included" },
+      { "text": "Tours to Sunway Lagoon Batu Caves Amusement Park Genting-Highlands & Chinatown" },
+      { "text": "Insurance" }
+    ]
+  }
+}
+,
+
+  "vacation": {
+    "titleLine1": "Dream vacations are closer,",
+    "titleLine2": "than you thought!",
+    "description": "Get a consultation, and get more information!",
+    "button": "Consultation"
+  }
+}
