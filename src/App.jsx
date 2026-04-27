@@ -6,7 +6,7 @@ import "./i18n"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/SilkwayGlobal">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/programs/:country" element={<Programs />} />
