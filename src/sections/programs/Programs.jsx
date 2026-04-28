@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom"; // Убедитесь, что используете react-router-dom, если это опечатка в оригинале
 import { useTranslation } from "react-i18next";
 
 import BackgroundUK from "../../assets/programs/london.webp";
@@ -46,7 +46,6 @@ export default function Programs() {
 
   return (
     <>
-      {/* 1. Увеличиваем min-h-[100dvh] до min-h-[120dvh] на мобилках и md:min-h-[150dvh] на десктопе */}
       <section className="relative font-[Montserrat] w-full min-h-[120dvh] md:min-h-[150dvh] bg-[#94d6ff] flex flex-col overflow-hidden">
         {/* Слой фона с оверлеем */}
         <div
@@ -54,19 +53,17 @@ export default function Programs() {
           style={{ backgroundImage: `url(${data.image})` }}
         ></div>
 
-        {/* 2. Контентный слой тоже должен соответствовать новой высоте родителя */}
+        {/* Контентный слой */}
         <div className="relative z-10 w-full flex flex-col items-center min-h-[120dvh] md:min-h-[150dvh]">
           <div className="w-full">
             <NavBar />
           </div>
 
           {/* Центрированный блок с заголовками и кнопкой */}
-          <div className="flex justify-start items-start  md:text-start md:justify-start md:items-start w-[90%] md:w-4/5 flex-1 py-10 gap-8">
-            <div className="flex flex-col gap-2">
-              {/* <span className="text-[#304BAA] hidden md:visible md:text-5xl font-extrabold uppercase tracking-widest opacity-90">
-                {t("programsTitle.mainTitle")}
-              </span> */}
-              <h1 className="text-4xl sm:text-5xl md:text-7xl  text-white font-bold leading-tight drop-shadow-2xl">
+          <div className="flex justify-start items-start md:text-start md:justify-start md:items-start w-[90%] md:w-4/5 flex-1 py-10 gap-8">
+            <div className="flex flex-col gap-2 w-full">
+              {/* Исправленные классы адаптивности и добавление break-words */}
+              <h1 className="text-6xl sm:text-8xl  text-white font-bold leading-tight drop-shadow-2xl break-words w-full">
                 {t(`programsTitle.${selectedCountry}.title`)}
               </h1>
             </div>

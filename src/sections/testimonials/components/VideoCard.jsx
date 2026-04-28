@@ -1,5 +1,5 @@
 import React from "react";
-import { PlayIcon, PauseIcon, SoundOnIcon, SoundOffIcon } from "./VideoIcons";
+import { SoundOnIcon, SoundOffIcon } from "./VideoIcons";
 
 export default function VideoCard({ 
   src, 
@@ -8,25 +8,14 @@ export default function VideoCard({
   isMuted, 
   progress, 
   onCardClick, 
-  onPlayPause, 
   onMuteToggle, 
-  videoRef 
+  videoRef,
+  positionClass // Получаем класс позиции
 }) {
   return (
     <div
       onClick={onCardClick}
-      className="w-full md:w-1/2" 
-      style={{
-        flex: isActive ? "0.3" : "0.25", 
-        height: "clamp(200px, 50vw, 600px)",
-        borderRadius: "20px",
-        overflow: "hidden",
-        background: "#0B2A4A",
-        position: "relative",
-        cursor: "pointer",
-        opacity: isActive ? 1 : 0.65,
-        transition: "flex 0.5s cubic-bezier(0.4,0,0.2,1), opacity 0.4s",
-      }}
+      className={`v-card ${positionClass}`}
     >
       <video
         ref={videoRef}
@@ -42,41 +31,10 @@ export default function VideoCard({
         }}
       />
 
-      <div
-        style={{
-          position: "absolute",
-          inset: 0,
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          background: isActive ? "rgba(0,0,0,0.08)" : "rgba(0,0,0,0.28)",
-          transition: "background 0.2s",
-        }}
-      >
-        <button
-          onClick={(e) => { e.stopPropagation(); onPlayPause(); }}
-          style={{
-            width: 58,
-            height: 58,
-            borderRadius: "50%",
-            background: "rgba(255,255,255,0.92)",
-            border: "none",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            cursor: "pointer",
-            transition: "transform 0.2s",
-          }}
-          onMouseEnter={e => e.currentTarget.style.transform = "scale(1.08)"}
-          onMouseLeave={e => e.currentTarget.style.transform = "scale(1)"}
-        >
-          {isPlaying ? <PauseIcon /> : <PlayIcon />}
-        </button>
-      </div>
-
       {isActive && (
         <div
           className="video-controls"
+          onClick={(e) => e.stopPropagation()} // Изолируем клики по панели
           style={{
             position: "absolute",
             bottom: 14,
