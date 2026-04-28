@@ -52,9 +52,7 @@ export default function Programs() {
         <div
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${data.image})` }}
-        >
-          <div className="absolute inset-0 bg-black/30"></div>
-        </div>
+        ></div>
 
         {/* 2. Контентный слой тоже должен соответствовать новой высоте родителя */}
         <div className="relative z-10 w-full flex flex-col items-center min-h-[120dvh] md:min-h-[150dvh]">
@@ -63,11 +61,11 @@ export default function Programs() {
           </div>
 
           {/* Центрированный блок с заголовками и кнопкой */}
-          <div className="flex justify-center items-center text-center md:text-start md:justify-start md:items-start w-[90%] md:w-4/5 flex-1 py-10 gap-8">
+          <div className="flex justify-start items-start  md:text-start md:justify-start md:items-start w-[90%] md:w-4/5 flex-1 py-10 gap-8">
             <div className="flex flex-col gap-2">
-              <span className="text-[#304BAA] text-lg md:text-5xl font-extrabold uppercase tracking-widest opacity-90">
+              {/* <span className="text-[#304BAA] hidden md:visible md:text-5xl font-extrabold uppercase tracking-widest opacity-90">
                 {t("programsTitle.mainTitle")}
-              </span>
+              </span> */}
               <h1 className="text-4xl sm:text-5xl md:text-7xl  text-white font-bold leading-tight drop-shadow-2xl">
                 {t(`programsTitle.${selectedCountry}.title`)}
               </h1>

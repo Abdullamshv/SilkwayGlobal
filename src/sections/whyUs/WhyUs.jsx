@@ -14,18 +14,18 @@ const icons = [
   </svg>,
   // Глобус — страны
   <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
-    <circle cx="12" cy="12" r="9" stroke="#2D4EC8" strokeWidth="1.5" />
+    <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5" />
     <path
       d="M12 3C12 3 8 8 8 12C8 16 12 21 12 21"
-      stroke="#2D4EC8"
+      stroke="white"
       strokeWidth="1.5"
     />
     <path
       d="M12 3C12 3 16 8 16 12C16 16 12 21 12 21"
-      stroke="#2D4EC8"
+      stroke="white"
       strokeWidth="1.5"
     />
-    <path d="M3 12H21" stroke="#2D4EC8" strokeWidth="1.5" />
+    <path d="M3 12H21" stroke="white" strokeWidth="1.5" />
   </svg>,
   // Университет — партнёры
   <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
@@ -35,23 +35,23 @@ const icons = [
       width="18"
       height="11"
       rx="2"
-      stroke="#2D4EC8"
+      stroke="white"
       strokeWidth="1.5"
     />
     <path
       d="M7 10V7a5 5 0 0 1 10 0v3"
-      stroke="#2D4EC8"
+      stroke="white"
       strokeWidth="1.5"
       strokeLinecap="round"
     />
-    <circle cx="12" cy="15" r="1.5" fill="#2D4EC8" />
+    <circle cx="12" cy="15" r="1.5" fill="white" />
   </svg>,
   // Часы — консультации
   <svg viewBox="0 0 24 24" fill="none" className="w-6 h-6">
-    <circle cx="12" cy="12" r="9" stroke="#2D4EC8" strokeWidth="1.5" />
+    <circle cx="12" cy="12" r="9" stroke="white" strokeWidth="1.5" />
     <path
       d="M12 7v5l3 3"
-      stroke="#2D4EC8"
+      stroke="white"
       strokeWidth="1.5"
       strokeLinecap="round"
     />
@@ -85,7 +85,6 @@ export default function WhyUs() {
 
       <div className="mx-auto max-w-6xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 px-4">
         {WhyUsData.map((item, index) => {
-          const isAccent = index === 0;
           const isBouncing = bouncingIndex === index;
 
           return (
@@ -95,25 +94,19 @@ export default function WhyUs() {
                 transform: isBouncing ? "translateY(-12px)" : "translateY(0)",
                 transition: "transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1)",
               }}
-              className={`
+              className="
                 rounded-2xl p-6 flex flex-col gap-3 min-h-[180px] text-center
                 hover:-translate-y-2 hover:shadow-xl cursor-default
-                ${isAccent ? "bg-[#2D4EC8]" : "bg-white border border-white/60"}
-              `}
+                bg-[#2D4EC8] text-white
+              "
             >
               {/* Цифра */}
-              <div
-                className={`text-3xl font-extrabold leading-none ${isAccent ? "text-white" : "text-[#2D4EC8]"}`}
-              >
+              <div className="text-3xl font-extrabold leading-none text-white">
                 {t(item.textKeys[0])}
               </div>
 
-              
-
               {/* Описание */}
-              <div
-                className={`text-2xl font-bold leading-relaxed ${isAccent ? "text-white/75" : "text-slate-500"}`}
-              >
+              <div className="text-2xl font-bold leading-relaxed text-white/90">
                 {item.textKeys.slice(1).map((key, i) => (
                   <span key={i}>{t(key)} </span>
                 ))}
